@@ -66,8 +66,10 @@ function build_abi() {
 }
 
 # suppported ABI: aarch64 arm i686 x86_64
-ABI_LIST=(aarch64 armv7a i686 x86_64)
-# build for each ABI
-for ABI in ${ABI_LIST[@]}; do
-    build_abi $ABI
-done
+# ABI_LIST=(aarch64 armv7a i686 x86_64)
+# # build for each ABI
+# for ABI in ${ABI_LIST[@]}; do
+#     build_abi $ABI
+# done
+
+build_abi armv7a
