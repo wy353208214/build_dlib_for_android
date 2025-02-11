@@ -1,5 +1,11 @@
 # build_dlib_for_android
-Build dlib library with zlib&amp;libpng
+Build dlib library with zlib&amp;libpng.
+###### Dependency version:
+- NDK-21.4.7075529
+- zlib-1.3.1
+- libpng-1.6.44
+- dlib-19.24
+
 
 #### 1. build zlib static library
 The build script is `zlib_android_build.sh`, in zlib-1.3.1 root.
